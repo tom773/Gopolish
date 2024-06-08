@@ -8,7 +8,7 @@ import (
 
 func Test1(t *testing.T) {
 
-	msg, err := os.OpenFile("../log1.txt", os.O_RDONLY, 0)
+	msg, err := os.OpenFile("examplelogs/log1.txt", os.O_RDONLY, 0)
 	defer msg.Close()
 	if err != nil {
 		t.Fatalf("error: %v", err)
@@ -23,7 +23,7 @@ func Test1(t *testing.T) {
 
 func Test2(t *testing.T) {
 
-	msg, err := os.OpenFile("../log2.txt", os.O_RDONLY, 0)
+	msg, err := os.OpenFile("examplelogs/log2.txt", os.O_RDONLY, 0)
 	defer msg.Close()
 	if err != nil {
 		t.Fatalf("error: %v", err)
@@ -38,7 +38,7 @@ func Test2(t *testing.T) {
 
 func Test3(t *testing.T) {
 
-	msg, err := os.OpenFile("../log3.txt", os.O_RDONLY, 0)
+	msg, err := os.OpenFile("examplelogs/log3.txt", os.O_RDONLY, 0)
 	defer msg.Close()
 	if err != nil {
 		t.Fatalf("error: %v", err)
