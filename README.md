@@ -1,10 +1,14 @@
 # Gopolish
 
-Gopolish is a lightweight and fast tool for formatting and prettifying Go test results.
+Polish up those ugly Go test outputs with Gopolish. Simple tool that adds some color and much needed formatting to the output of your Go tests.
 
 ## Installation
 
-This is currently a work in progress. You can build the binary yourself by following the instructions below.
+### Using Go
+```
+> go install github.com/tom773/gopolish@latest
+```
+Or build from the source:
 
 ```
 > git clone git@github.com:tom773/Gopolish.git
@@ -14,6 +18,6 @@ This is currently a work in progress. You can build the binary yourself by follo
 ## Usage
 
 ```
-> go test ./... -v | gopolish
+> go test ./... -v | gopolish <or ./gopolish if you built from source>
 ```
-That's it, no need to worry about the flags or anything else (-v makes it look cooler). Just pipe the output of your tests to Gopolish and it will do the rest.
+That's it. Ideally you'd pipe the output in with -v, as this makes it look cooler, but it's not necessary.
