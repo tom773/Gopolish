@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 	"os"
-	pretty "tmpretty/utils"
+
+	pretty "github.com/tom773/gopolish/utils"
 )
 
 func main() {

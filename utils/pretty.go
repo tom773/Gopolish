@@ -6,7 +6,8 @@ import (
 	"io"
 	"regexp"
 	"strings"
-	formatting "tmpretty/pkg"
+
+	formatting "github.com/tom773/gopolish/pkg"
 )
 
 func Pretty(r io.Reader, w io.Writer) error {
