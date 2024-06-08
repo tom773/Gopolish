@@ -6,7 +6,6 @@ builds:
       - windows
       - darwin
     main: ./cmd/main.go
-    binary: ./bin/gopolish 
 
 archives:
   - format: tar.gz
