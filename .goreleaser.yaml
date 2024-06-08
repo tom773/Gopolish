@@ -5,8 +5,6 @@ builds:
       - linux
       - windows
       - darwin
-    main: ./cmd/main.go
-
 archives:
   - format: tar.gz
     name_template: >-
@@ -26,3 +24,8 @@ changelog:
     exclude:
       - "^docs:"
       - "^test:"
+
+release:
+  github:
+    owner: tom773
+    name: gopolish
